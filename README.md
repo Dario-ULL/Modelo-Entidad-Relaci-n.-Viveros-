@@ -1,12 +1,12 @@
 # Modelo-Entidad-Relacion-Viveros
 ### Integrantes del grupo: Darío Domínguez González y Lihao Shu
 ## 1. Descripción de cada una de las entidades definidas
-1. **Viveros:**
-2. **Zona:**
-3. **Empleado:**
-4. **Producto:**
-5. **Pedido:**
-6. **Cliente fidelizado:**
+1. **Viveros:** Entidad que representa los viveros que disponen en una empresa.
+2. **Zona:** Entidad que representa las diferentes zonas que existen dentro de un mismo vivero.
+3. **Empleado:** Persona que trabaja para la empreza en un vivero.
+4. **Producto:** Entidad que representa todos los vienenes o servicios que ofrece la empresa.
+5. **Pedido:** Entidad que representa la informacion de los pedidos realizados por los clientes.
+6. **Cliente fidelizado:** Clasificacion de todos los clientes afiliados.
 ## 2. Descripción y ejemplos ilustrativos del dominio de cada uno de los atributos de las entidades
 1. **Vivero:**
    - **Código vivero (Clave primaria):** Identificador único para cada vivero. Ejemplo: V001

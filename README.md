@@ -50,7 +50,6 @@
    - **Nombre:** Nombre del producto. Ejemplo: "Planta de Rosas"
    - **Precio:** Precio unitario del producto. Ejemplo: $20
    - **Descripción:** Descripción del producto. Ejemplo: "Planta de rosa roja"
-   - **Stock:** Cantidad disponible del producto. Ejemplo: 150 unidades
 6. **Pedido:**
 
    - **Código pedido (Clave primaria):** Identificador único del pedido. Ejemplo: O001

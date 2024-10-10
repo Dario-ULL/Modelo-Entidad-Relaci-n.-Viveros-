@@ -30,7 +30,7 @@
      - **Primer apellido:** Primer apellido de la persona. Ejemplo: "Pérez"
      - **Segundo apellido:** Segundo apellido de la persona. Ejemplo: "García"
    - **Fecha ingreso:** Fecha en la que el empleado comenzó a trabajar. Ejemplo: 01/03/2021
-   - **DNI:** Documento de identidad del empleado. Ejemplo: 12345678
+   - **DNI:** Documento de identidad del empleado. Ejemplo: 12345678A
    - **Productividad (Opcional):** Medida del rendimiento del empleado. Ejemplo: 90%
 4. **Cliente fidelizado:**
 

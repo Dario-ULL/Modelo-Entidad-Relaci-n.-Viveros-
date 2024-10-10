@@ -121,3 +121,34 @@
    ![image](https://github.com/user-attachments/assets/f675658d-eea7-49e1-b107-494b4b101de7)
 
 ## 4. Restricciones semánticas
+1. Vivero
+
+    Restricción de unicidad en el código del vivero: El código vivero debe ser único para evitar confusiones entre diferentes viveros.
+    Coherencia en georreferencias: La latitud y longitud deben estar dentro de los rangos válidos para garantizar ubicaciones geográficas precisas.
+
+2. Zona
+
+    Restricción de unicidad en el código de la zona: El código zona debe ser único dentro de cada vivero para diferenciar las zonas adecuadamente.
+    Coherencia en georreferencias: La latitud y longitud de la zona deben ser válidas y no pueden ser iguales a las de otros viveros.
+
+3. Empleado
+
+    Restricción de unicidad en el código del empleado: El código empleado debe ser único para cada persona en la base de datos.
+    Validez de la fecha de ingreso: La fecha de ingreso debe ser anterior o igual a la fecha actual, garantizando que los empleados registrados sean válidos.
+    Unicidad del DNI: El DNI debe ser único para cada empleado, evitando duplicados que puedan generar confusión.
+
+4. Cliente fidelizado
+
+    Restricción de unicidad en el código del cliente: El código cliente debe ser único para cada cliente registrado en el sistema.
+    Validez del correo electrónico: El email debe ser único y seguir un formato válido para asegurar la correcta comunicación con los clientes.
+    Restricción sobre la fecha de registro: La fecha de registro debe ser anterior o igual a la fecha actual.
+
+5. Producto
+
+    Restricción de unicidad en el código del producto: El código producto debe ser único para evitar confusiones entre diferentes productos.
+    Validez del precio: El precio del producto no puede ser negativo, asegurando que todos los productos tengan un valor válido.
+
+6. Pedido
+
+    Restricción de unicidad en el código del pedido: El código pedido debe ser único para identificar cada transacción de manera clara.
+    Validez de la fecha del pedido: La fecha del pedido debe ser anterior o igual a la fecha actual para garantizar que las transacciones sean cronológicamente correctas.

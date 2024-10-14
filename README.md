@@ -2,7 +2,7 @@
 ### Integrantes del grupo: Darío Domínguez González y Lihao Zhu
 ## 1. Descripción de cada una de las entidades definidas
 1. **Viveros:** Entidad que representa los viveros que disponen en una Tajinaste S.A.
-2. **Zona:** Entidad que representa las diferentes zonas que existen dentro de un mismo vivero.
+2. **Zona:** Entidad débil que representa las diferentes zonas que existen dentro de un mismo vivero.
 3. **Empleado:** Persona que trabaja para la empreza en un vivero.
 4. **Producto:** Entidad que representa todos los vienenes o servicios que ofrece la Tajinaste S.A.
 5. **Pedido:** Entidad que representa la informacion de los pedidos realizados por los clientes.
@@ -25,7 +25,7 @@
    - **Georreferencia:** Ubicación espacial de la zona. Compuesto por: 
      - **Latitud:** Coordenadas geográficas que ubican el vivero. Ejemplo: -34.603722
      - **Longitud:** Coordenadas geográficas que ubican el vivero. Ejemplo: -58.381592
-   - **Productividad (Opcional):** Un atributo relacionado con la productividad de la zona (puede estar relacionado con cultivos, rendimiento, etc.). Ejemplo: 85%
+   - **Productividad (Atributo calculado):** Un atributo relacionado con la productividad de la zona (puede estar relacionado con cultivos, rendimiento, etc.). Ejemplo: 85%
 
    ![image](https://github.com/user-attachments/assets/789cb98f-a8e1-400e-a642-d58c2a19077c)
 
@@ -38,7 +38,7 @@
      - **Segundo apellido:** Segundo apellido de la persona. Ejemplo: "García"
    - **Fecha ingreso:** Fecha en la que el empleado comenzó a trabajar. Ejemplo: 01/03/2021
    - **DNI:** Documento de identidad del empleado. Ejemplo: 12345678A
-   - **Productividad (Opcional):** Medida del rendimiento del empleado. Ejemplo: 90%
+   - **Productividad (Atributo calculado):** Medida del rendimiento del empleado. Ejemplo: 90%
 
   ![image](https://github.com/user-attachments/assets/820c637f-fb23-46a0-9a40-c02cacee92c5)
 
@@ -52,8 +52,8 @@
    - **Email:** Correo electrónico del cliente. Ejemplo: "maria.gonzalez@example.com"
    - **Teléfono:** Número de contacto. Ejemplo: 555123456
    - **Fecha registro:** Fecha en la que el cliente se registró. Ejemplo: 05/07/2022
-   - **Compra total:** Monto total acumulado por las compras del cliente. Ejemplo: $2,500
-   - **Bonificación:** Información sobre las bonificaciones obtenidas. Ejemplo: 5%
+   - **Compra total (Atributo calculado):** Monto total acumulado por las compras del cliente. Ejemplo: $2,500
+   - **Bonificación (Atributo calculado):** Información sobre las posibles descuentos. Ejemplo: 5%
   
    ![image](https://github.com/user-attachments/assets/29fe9d2c-c884-4cec-a9c5-a45206f5acbb)
 
@@ -74,7 +74,8 @@
    ![image](https://github.com/user-attachments/assets/9aedf578-6e80-40f2-9bb6-48de81f9eee4)
 
 ## 3. Descripción de cada una de las relaciones definidas y sus cardinalidades
-1. **Vivero - Zona (tiene):**
+1. **Vivero - Zona (tiene (Existencia)):**
+   - Una zona no puede existir sin un vivero.
    - Un vivero tiene varias zonas (1, N).
    - Cada zona pertenece a un solo vivero (1, 1).
    - **Ejemplo:** El "Vivero Central" tiene la "Zona Norte" y la "Zona Sur".

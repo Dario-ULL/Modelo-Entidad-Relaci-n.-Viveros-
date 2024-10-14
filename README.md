@@ -110,7 +110,7 @@
    - Para que un empleado realice una tarea en una zona, tiene que, previamente, estar trabajando en un vivero (1,1).
    - **Ejemplo:** “Juan Pérez” riega las flores en la “Zona Sur” del “Vivero Central” mientras que “Pepito López” no está asignado a una zona ya que no trabaja en un vivero.
   
-   ![image](https://github.com/user-attachments/assets/e414945f-5421-41f6-ac91-3785b7ae278c)
+   ![Captura2](https://github.com/user-attachments/assets/946467fb-7d2f-48b9-bfe2-5f945b948b6b)
 
 6. **Empleado - Pedido - Cliente fidelizado (realiza):**
    - Un cliente fidelizado realiza varios pedidos a varios  empelados (1,N,N).

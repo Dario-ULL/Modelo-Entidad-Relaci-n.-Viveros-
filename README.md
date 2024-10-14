@@ -104,7 +104,7 @@
      - **Tarea:** Labor específica que realiza un empleado.
    - **Ejemplo:** “Juan” riega las flores en la “Zona Sur”.
   
-   ![Captura](https://github.com/user-attachments/assets/d62242f7-6d78-4653-ab25-ae9393818b33)
+   ![Captura](https://github.com/user-attachments/assets/b9f479cb-1e82-4cc1-8f8f-de7c41635954)
 
 5. **Vivero - Empleado - Zona (Restricción de inclusividad):**
    - Para que un empleado realice una tarea en una zona, tiene que, previamente, estar trabajando en un vivero (1,1).
